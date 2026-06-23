@@ -1,10 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
-  "buildCommand": "pnpm run build",
-  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm next build",
+ "installCommand": "pnpm install --include=dev",
   "outputDirectory": ".next",
-  "regions": ["hkg1"],
+  "regions": ["hhk1"],
   "headers": [
     {
       "source": "/(.*)",
