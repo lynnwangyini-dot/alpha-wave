@@ -4,7 +4,7 @@
   "buildCommand": "pnpm run build",
   "installCommand": "pnpm install --frozen-lockfile",
   "outputDirectory": ".next",
-  "regions": ["hkg1", "sin1"],
+  "regions": ["hkg1"],
   "headers": [
     {
       "source": "/(.*)",
